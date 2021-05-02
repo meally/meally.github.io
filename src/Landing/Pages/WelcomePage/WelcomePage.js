@@ -7,6 +7,7 @@ import BotonPruebaAhora from '../../Components/BotonPruebaAhora.js'
 import Mission1 from '../Mission/Mission1.js'
 import Mission2 from '../Mission/Mission2.js'
 import Mission3 from '../Mission/Mission3.js'
+import Footer from '../../Components/Footer.js'
 require('typeface-m-plus-rounded-1c');
 
 const useStyles = makeStyles((theme) => ({
@@ -52,6 +53,7 @@ export default function WelcomePage(props){
                 <h1 className ="FraseFinal" style={{ color: theme.highlight, textAlign: "center"}}>Meal.ly: No sólo es mejor para ti, ¡es mejor para 
                 <span style={{color: "#EFB623"}}> Col</span><span style={{color: "#23A6EF"}}>omb</span>ia! </h1>
         </Grid>
+        <Footer theme={theme}/>
 
     </div>);
 }
