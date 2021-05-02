@@ -3,7 +3,7 @@
 }
 
 .UVP{
-    font-size: calc(25px + 2vmin);
+    font-size: calc(15px + 2vmin);
 
 }
 
@@ -24,5 +24,9 @@
 }
 
 .FraseMotivacional{
-    font-size: calc(20px + 2vmin);
+    font-size: calc(10px + 2vmin);
+}
+
+.FraseFinal{
+    font-size: calc(25px + 2vmin);
 }

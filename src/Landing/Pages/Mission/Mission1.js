@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${Burbujas})`,
     backgroundRepeat: "no-repeat",
     maxWidth: "92%",
-    marginLeft: "10%",
+    marginLeft:"10%"
   }
 }));
 
@@ -19,22 +19,22 @@ export default function Mission1(props){
   return(
     <Grid container spacing={2} className = {classes.banner}  style={{marginRight:"6%"}} >
       <Grid item xs={6} >
-                <h1 style={{ color: theme.dark, textAlign: "left", marginTop:"5%"}}>
-                Gestionamos tus alimentos próximos a vencer <br/>en los supermercados y les damos un final <br/> feliz
-                </h1>
-                <p style={{color: theme.secondaryText, fontSize: "1.8em", 
+                <h2 style={{ color: theme.dark, textAlign: "left", marginTop:"5%", marginLeft: "2.5%", fontSize: "1.75em"}}>
+                Gestionamos tus alimentos próximos a vencer en los supermercados y les damos un final <br/> feliz
+                </h2>
+                <p style={{color: theme.secondaryText, fontSize: "1.25em", 
                 fontFamily: "Rounded Mplus 1c",
-                textAlign: "left", marginTop: "12%", lineHeight: "170%"}}>
-                  Entregándolos <span style={{fontWeight: "bold"}}>DIRECTAMENTE</span> a quienes más lo <br/> necesitan,
+                textAlign: "left", marginTop: "8%", lineHeight: "170%", marginLeft: "2.5%"}}>
+                  Entregándolos <span style={{fontWeight: "bold"}}>DIRECTAMENTE</span> a quienes más lo necesitan,
                   ¡sin más intermediarios!
                 </p>
                 <Button size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
-                textAlign: "center", width: "40%",  height: "12%", fontSize: "30px", fontFamily: "Rounded Mplus 1c", 
+                textAlign: "center", width: "40%",  height: "12%", fontSize: "20px", fontFamily: "Rounded Mplus 1c", 
                 borderRadius: 15, fontWeight: "bold", marginTop: "5%", marginLeft: "-20%"}} >¡Prueba Ahora!
                 </Button>
       </Grid>
       <Grid item xs={6} >
-      <img src={Charity} alt="charity" style={{width: "65%", marginRight: "15%", marginLeft: "-15%"}} />
+      <img src={Charity} alt="charity" style={{width: "65%", marginLeft: "-10%"}} />
       </Grid>
     </Grid>
   );
