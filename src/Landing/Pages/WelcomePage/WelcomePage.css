@@ -23,3 +23,6 @@
     font-weight: normal;
 }
 
+.FraseMotivacional{
+    font-size: calc(20px + 2vmin);
+}
