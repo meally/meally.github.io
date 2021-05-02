@@ -23,7 +23,7 @@ export default function Mission2(props){
                 <span style={{fontWeight: "bold"}}> alimentos aptos para el consumo humano! </span> 
                 Además, ¡generarás beneficios tributarios por las donaciones hechas a Meal.ly!
                 </p>
-            <Button size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
+            <Button href="/#contactanos" size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
             textAlign: "center", width: "38%",  height: "13%", fontSize: "20px", fontFamily: "Rounded Mplus 1c", 
             borderRadius: 15, fontWeight: "bold", marginTop: "5%", marginLeft: "-10%"}} >¡Prueba Ahora!
             </Button>

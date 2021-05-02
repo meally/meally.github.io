@@ -27,7 +27,7 @@ export default function Mission2(props){
                 ¿Qué mejor que ayudar a erradicar la <span style={{fontWeight: "bold"}}> hambruna mundial </span> 
                 mientras ahorras <span style={{fontWeight: "bold"}}>costos</span> y te vuelves más <span style={{fontWeight: "bold"}}>sostenible</span>?
                 </p>
-                <Button size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
+                <Button href="/#contactanos" size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
                 textAlign: "center", width: "40%",  height: "13%", fontSize: "20px", fontFamily: "Rounded Mplus 1c", 
                 borderRadius: 15, fontWeight: "bold", marginTop: "5%"}} >¡Prueba Ahora!
                 </Button>

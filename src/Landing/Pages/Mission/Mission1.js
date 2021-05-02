@@ -28,7 +28,7 @@ export default function Mission1(props){
                   Entregándolos <span style={{fontWeight: "bold"}}>DIRECTAMENTE</span> a quienes más lo necesitan,
                   ¡sin más intermediarios!
                 </p>
-                <Button size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
+                <Button href="/#contactanos" size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
                 textAlign: "center", width: "40%",  height: "12%", fontSize: "20px", fontFamily: "Rounded Mplus 1c", 
                 borderRadius: 15, fontWeight: "bold", marginTop: "5%", marginLeft: "-20%"}} >¡Prueba Ahora!
                 </Button>

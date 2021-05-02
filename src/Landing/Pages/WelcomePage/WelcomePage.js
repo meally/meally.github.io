@@ -3,7 +3,7 @@ import './WelcomePage.css';
 import {Grid, makeStyles} from '@material-ui/core';
 import Mancha from '../../../assets/mancha.svg'
 import Engranajes from '../../../assets/engranajes.svg'
-import BotonPruebaAhora from '../../Components/Button.js'
+import BotonPruebaAhora from '../../Components/BotonPruebaAhora.js'
 import Mission1 from '../Mission/Mission1.js'
 import Mission2 from '../Mission/Mission2.js'
 import Mission3 from '../Mission/Mission3.js'
@@ -25,7 +25,7 @@ export default function WelcomePage(props){
     return(
     <div className="container">
         <Grid container spacing={2} className = {classes.banner}  style={{marginRight:"6%"}} >
-            <Grid item item xs={12}>
+            <Grid item xs={12}>
                 <h1 className ="UVP" style={{ color: theme.highlight, textAlign: "right"}}>¡Calmamos el hambre y ayudamos al planeta mientras <br/>le ahorramos dinero a las empresas!</h1>
             </Grid>
             <Grid item xs={6} style={{marginTop: "-7.5%", marginRight:"-15%", marginLeft: "12.5%"}}>
@@ -48,7 +48,7 @@ export default function WelcomePage(props){
         <Mission1 theme={theme}/>
         <Mission2 theme={theme}/>
         <Mission3 theme={theme}/>
-        <Grid item item xs={12}>
+        <Grid item xs={12}>
                 <h1 className ="FraseFinal" style={{ color: theme.highlight, textAlign: "center"}}>Meal.ly: No sólo es mejor para ti, ¡es mejor para 
                 <span style={{color: "#EFB623"}}> Col</span><span style={{color: "#23A6EF"}}>omb</span>ia! </h1>
         </Grid>
