@@ -24,13 +24,13 @@ export default function Mission1(props){
                 </h1>
                 <p style={{color: theme.secondaryText, fontSize: "1.8em", 
                 fontFamily: "Rounded Mplus 1c",
-                textAlign: "left", marginTop: "12%"}}>
+                textAlign: "left", marginTop: "12%", lineHeight: "170%"}}>
                   Entregándolos <span style={{fontWeight: "bold"}}>DIRECTAMENTE</span> a quienes más lo <br/> necesitan,
                   ¡sin más intermediarios!
                 </p>
                 <Button size="large" variant="contained" style={{backgroundColor: theme.highlight, color: "#F2E4D4",
-                textAlign: "center", width: "40%",  height: "15%", fontSize: "30px", fontFamily: "Rounded Mplus 1c", 
-                borderRadius: 15, fontWeight: "bold", marginTop: "5%", marginLeft: "-10%"}} >¡Prueba Ahora!
+                textAlign: "center", width: "40%",  height: "12%", fontSize: "30px", fontFamily: "Rounded Mplus 1c", 
+                borderRadius: 15, fontWeight: "bold", marginTop: "5%", marginLeft: "-20%"}} >¡Prueba Ahora!
                 </Button>
       </Grid>
       <Grid item xs={6} >

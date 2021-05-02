@@ -5,6 +5,7 @@ import Mancha from '../../../assets/mancha.svg'
 import Engranajes from '../../../assets/engranajes.svg'
 import BotonPruebaAhora from '../../Components/Button.js'
 import Mission1 from '../Mission/Mission1.js'
+import Mission2 from '../Mission/Mission2.js'
 require('typeface-m-plus-rounded-1c');
 
 const useStyles = makeStyles((theme) => ({
@@ -44,6 +45,7 @@ export default function WelcomePage(props){
             </Grid>
         </Grid>
         <Mission1 theme={theme}/>
+        <Mission2 theme={theme}/>
        
         
 
