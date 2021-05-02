@@ -1,0 +1,22 @@
+.container{
+    margin-top: -8%;
+}
+
+.UVP{
+    font-size: calc(25px + 2vmin);
+
+}
+
+.TextoMotivacion{
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.Motivacion{
+    font-weight: bold;
+}
+
+.Motivacion span{
+    font-weight: normal;
+}

@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import './App.css';
+import { chosenTheme } from "./theme";
+import { ThemeProvider } from "styled-components";
+import WelcomePage from './Landing/WelcomePage/WelcomePage.js';
+require('typeface-m-plus-rounded-1c');
 
 function App() {
   return (
+    <ThemeProvider  theme={chosenTheme}>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <WelcomePage theme={chosenTheme}/>
       </header>
     </div>
+    </ThemeProvider>
   );
 }
 
