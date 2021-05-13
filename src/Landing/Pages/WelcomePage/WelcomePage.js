@@ -33,7 +33,7 @@ export default function WelcomePage(props){
                 <img src={Engranajes} alt="engranajes" style={{width: "120%"}}/>
             </Grid>
             <Grid item xs={6} style={{marginTop: "-1.5%"}} >
-                <h2 className="Motivacion" style={{ color: theme.secondaryText, textAlign: "center", marginLeft: "35%" }}>¡Noa
+                <h2 className="Motivacion" style={{ color: theme.secondaryText, textAlign: "center", marginLeft: "35%" }}>¡No
                 <span style={{ color: theme.text, textAlign: "center" }}> deseches los alimentos próximos a vencer! Meal.ly gestiona
                 su entrega desde los </span><span style={{ color: theme.light, textAlign: "center" }}>supermercados </span>
                 <span style={{fontWeight: "bold"}}>directamente </span><span style={{ color: theme.text, textAlign: "center" }}>a quienes </span>
