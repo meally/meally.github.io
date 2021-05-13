@@ -33,7 +33,7 @@ export default function WelcomePage(props){
                 <img src={Engranajes} alt="engranajes" style={{width: "120%"}}/>
             </Grid>
             <Grid item xs={6} style={{marginTop: "-1.5%"}} >
-                <h2 className="Motivacion" style={{ color: theme.secondaryText, textAlign: "center", marginLeft: "35%" }}>¡No!
+                <h2 className="Motivacion" style={{ color: theme.secondaryText, textAlign: "center", marginLeft: "35%" }}>¡Noa
                 <span style={{ color: theme.text, textAlign: "center" }}> deseches los alimentos próximos a vencer! Meal.ly gestiona
                 su entrega desde los </span><span style={{ color: theme.light, textAlign: "center" }}>supermercados </span>
                 <span style={{fontWeight: "bold"}}>directamente </span><span style={{ color: theme.text, textAlign: "center" }}>a quienes </span>
@@ -43,7 +43,7 @@ export default function WelcomePage(props){
             </Grid>
             <Grid item xs={12}>
                 <h1 className="FraseMotivacional" style={{ color: theme.dark, textAlign: "center", marginLeft: "15%"}}>
-                Le damos una segunda oportunidad a tus alimentos próximos a vencer:<br/> ¡sin riesgo reputacional, a bajo costo y con alto impacto!</h1>
+                Le damos una segunda oportunidad a tus alimentos próximos a vencer:<br/> ¡a bajo costo y con alto impacto!</h1>
             </Grid>
         </Grid>
         <Mission1 theme={theme}/>
